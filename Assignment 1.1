@@ -1,0 +1,11 @@
+1) Prescriptive Analytics used to predict the future outcomes? - False 
+2) Base R packages installed automatically?- True
+3) What is Recycling of elements in a vector?
+A Any time you give two vectors with unequal lengths to a recycling function, R repeats the shortest vector as often as necessary to carry out the task you asked it to perform.
+4) Give an example of recycling of elements.
+A > matrix(c(1:5),nrow = 2, byrow = TRUE)
+     [,1] [,2] [,3]
+[1,]    1    2    3
+[2,]    4    5    1
+
+Here the value 1, in 2nd row & 3rd column is recycled.
